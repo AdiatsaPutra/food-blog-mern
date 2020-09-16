@@ -1,8 +1,7 @@
 import React from 'react'
 import './register.scss'
 import { RegisterBg } from '../../assets'
-import {  Button} from '../../components'
-import Input from '../../components/atoms/Input'
+import {Input, Button, Gap} from '../../components'
 
 const Register = () => {
     return (
@@ -16,6 +15,7 @@ const Register = () => {
                     <Input placeholder="Masukkan Nama" />
                     <Input placeholder="Masukkan Email" />
                     <Input placeholder="Masukkan Password" />
+                    <Gap height={20}/>
                     <Button title="Submit"/>
                 </div>
             </div>
