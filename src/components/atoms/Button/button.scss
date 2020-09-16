@@ -1,7 +1,7 @@
 .button-primary {
     background-color: rgb(255, 75, 75);
     color: white;
-    padding: 16px 110px;
+    padding: 16px 175px;
     outline: none;
     border: none;
     border-radius: 16px;
@@ -13,11 +13,12 @@
 .button-primary:hover {
     background-color: rgb(225, 52, 52);
     color: white;
-    padding: 16px 110px;
+    padding: 16px 160px;
     outline: none;
     border: none;
     border-radius: 16px;
     font-size: 15px;
     text-transform: uppercase;
     font-weight: bold;
+    transition: all 0.3s ease;
 }
