@@ -12,8 +12,11 @@ const Register = () => {
             <div className="right-section">
                 <div className="right-section-wrapper">
                     <h1 className="title">Register</h1>
+                    <Gap height={15}/>
                     <Input placeholder="Masukkan Nama" />
+                    <Gap height={15}/>
                     <Input placeholder="Masukkan Email" />
+                    <Gap height={15}/>
                     <Input placeholder="Masukkan Password" />
                     <Gap height={20}/>
                     <Button title="Submit"/>
